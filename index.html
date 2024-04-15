@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Phaedre</title>
+  <link rel="stylesheet" href="./mobile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f48300b518.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #fbeccd">
+  <div class="banner">
+    <header>
+      <nav>
+        <a class="dec" href="#"><img src="./Phaedre__1_-removebg-preview.png" height="60px" width="60px"
+            alt="" /><b>Phaedre</b></a>
+        <div class="nav-options">
+          <ul class="options">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-begin">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="indicator"></div>
+          </ul>
+          <button class="hamburger"><img class="hambuger" src="./menu.png" alt=""></button>
+        </div>
+
+      </nav>
+      <div class="drop_menu">
+        <a href="#"><button class="first_b">Home</button></a>
+        <a href="#about-begin"><button>About</button></a>
+        <a href="./portfolio.html"><button>Portfolio</button></a>
+        <a href="#contact"><button class="last_b">Contact</button></a>
+      </div>
+    </header>
+    <div class="banner-content">
+      <div class="left">
+        <div class="left-content">
+          <h1>Hey there,</h1>
+          <p>I am a <span id="element" class="fd"></span></p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="split"></div> -->
+  </div>
+  <div class="split"></div>
+  <div class="About" id="about-begin">
+    <div class="image-container">
+      <!-- <img src="./undraw_searching_re_3ra9.svg" alt=""> -->
+    </div>
+    <div class="text-container">
+      <div class="text">
+        <h1>About Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          pariatur fuga, voluptate at, eaque error quam voluptas ad vitae
+          facere earum veniam asperiores quasi iusto! <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          rerum esse eveniet veniam! Vitae magni rem provident esse quia
+          cumque!
+        </p>
+        <button type="button" class="bt-about">See More</button>
+      </div>
+    </div>
+  </div>
+  <div class="About1">
+    <div class="text-container">
+      <div class="text">
+        <h1>Portfolio</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          pariatur fuga, voluptate at, eaque error quam voluptas ad vitae
+          facere earum veniam asperiores quasi iusto! <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          rerum esse eveniet veniam! Vitae magni rem provident esse quia
+          cumque!
+        </p>
+        <button type="button" class="bt-about"><a href="./portfolio.html"> Check it out</a></button>
+      </div>
+    </div>
+    <div class="image-container2"></div>
+  </div>
+  <div class="action" id="contact">
+    <div class="form-container" id="form">
+      <div class="img-left"></div>
+      <div class="form-right">
+        <h1>Request</h1>
+        <form action="" class="forms">
+          <div class="input">
+            <label for="f-name">Name</label>
+            <input type="text" placeholder="John" />
+          </div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" placeholder="JohnDoe@email.com" />
+          </div>
+          <div class="input">
+            <label for="intro-message">Your message</label>
+            <textarea name="message" id="" cols="40" rows="6" placeholder="I'm listening"></textarea>
+          </div>
+          <span class="bn">
+            <input class="linked" type="submit" value="Submit">
+          </span>
+          <p class="form"><a onclick="toggleDiv('form', 'connect')" href="#connect">Oh you wanna connect!</a></p>
+        </form>
+      </div>
+    </div>
+    <div class="form-container_connect hidden" id="connect">
+      <div class="form-right">
+        <h1>Connect</h1>
+        <form action="" class="forms">
+          <div class="input">
+            <label for="f-name">Name</label>
+            <input class="name" type="text" placeholder="John"/>
+          </div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input class="email" type="email" placeholder="JohnDoe@email.com"/>
+          </div>
+          <div class="input">
+            <label for="intro-message">Your message</label>
+            <textarea name="message" id="" cols="40" rows="6" placeholder="I'm listening" ></textarea>
+          </div>
+          <span class="bn">
+            <input class="linked" type="submit" value="Submit">
+          </span>
+          <p class="form"><a onclick="toggleDiv('connect', 'form')" href="#request">Oh its a request!</a></p>
+        </form>
+      </div>
+      <div class="img-left-right"></div>
+    </div>
+  </div>
+  <!-- <div class="last-div"> -->
+  <footer>
+    <img src="./Phaedre__1_-removebg-preview.png" height="50" width="50" alt="" />
+    <h1>Phaedre</h1>
+    <span class="icons"><img src="./icon-instagram.svg" alt="" />
+      <img src="./icon-pinterest.svg" alt="" />
+      <img src="./icon-twitter.svg" alt="" />
+    </span>
+    <p>09058219835</p>
+  </footer>
+  <!-- </div> -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "<i>Front</i>-end developer.",
+        "<i>UI/UX</i> developer.",
+        "<i>Graphic</i> Designer.",
+        "<i>Phaedre</i>.",
+      ],
+      typeSpeed: 50,
+      loop: true,
+      backSpeed: 40,
+      startDelay: 500,
+      backDelay: 750,
+    });
+  </script>
+  <script src="./scripted.js"></script>
+</body>
+
+</html>

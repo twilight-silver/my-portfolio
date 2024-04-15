@@ -1,0 +1,125 @@
+@media only screen and (max-width: 412px){
+
+
+    .hamburger, .hambuger{
+        display: flex;
+        margin: 15% auto;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hamburger{
+        outline: none;
+        border: none;
+        background-color: none;
+    }
+
+    .drop_menu{
+        width: 40%;
+        margin-left: 40%;
+    }
+
+    .nav-options > ul{
+        display: none;
+    }
+
+    nav{
+        gap: 7rem;
+        width: 80vw;
+    }
+
+    .dec > img{
+        scale: 0.7;
+    }
+    
+    .dec{
+        font-size: 1.2rem;
+    }
+
+    .banner{
+        height: 70vh;
+    }
+
+    .left{
+        height: 300px;
+        width: 70%;
+        justify-self: center;
+        margin: 45% auto;
+    }
+
+    .left-content > h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .left-content > p{
+        font-size: 1rem;
+    }
+
+    .text >h1{
+        font-size: 2rem;
+    }
+
+    .text > p{
+        font-size: .6rem;
+    }
+
+    .text-container{
+        width: 100%;
+    }
+    
+    .About{
+        height: 65vh;
+        flex-direction: column;
+        gap: .5rem;
+        padding: .5rem;
+    }
+
+    .About1{
+        height: 65vh;
+        flex-direction: column-reverse;
+        /* gap: .2rem; */
+    }
+
+    .image-container, .image-container2{
+        width: 100%;
+        background-position: center;
+    }
+
+    .bt-about{
+        padding: .7rem;
+        width: 70%;
+    }
+
+    .form-container{
+        height: 80%;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .form-container_connect{
+        height: 80%;
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+
+    .img-left{
+        /* rotate: 90deg; */
+        width: 100%;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .img-left-right{
+        width: 100%;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .form-right{
+        margin: 5% auto;
+    }
+}

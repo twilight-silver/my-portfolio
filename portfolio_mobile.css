@@ -1,0 +1,27 @@
+@media only screen and (max-width: 412px){
+   .content{
+    margin: -30% auto 1.55rem auto;
+
+   }
+
+   .container{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .images{
+        flex: 1;
+        width: 100%;
+        box-shadow: 0px 10px 16px #969696;
+   }
+
+   .description{
+    width: 100%;
+   }
+
+   body{
+    background-color: #2d4f3b;
+   }
+}
