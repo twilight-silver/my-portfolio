@@ -26,14 +26,7 @@ $links.forEach(($link) => {
         }
     }
 
-// Validating the form
 
-const user_name = document.querySelector(".name");
-const email =document.querySelector(".email");
-
-if (user_name === ''){
-    console.log('This field is compulsory');
-}
 
 //menu
 document.getElementsByClassName('hamburger').addEventListner('click',function(){
